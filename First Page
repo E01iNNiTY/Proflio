@@ -1,2 +1,89 @@
-<p>Hello</p>
-<p>luisisgay</>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JJ Sneaker Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        td:hover img {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is the one-stop shop you need for the most affordable and best-looking sneakers</h1>
+    </header>
+
+    <table>
+        <tr>
+            <td>
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31ff59e2-89d0-4a83-839a-656618674782/air-jordan-1-mid-mens-shoes-tXSJ73.png" width="250" height="250" alt="JJ sneakers">
+                <h2>Air Jordan 1 Mid Men's Shoes</h2>
+                <p>The Air Jordan 1 Mid Men's Shoes are a classic choice, known for their iconic design and comfort.</p>
+            </td>
+            <td>
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/471ea91b-5476-4d92-b262-41cd100aad48/air-jordan-1-retro-high-og-womens-shoes-SsFGW3.png" width="250" height="250" alt="JJ sneakers">
+                <h2>Air Jordan 1 Retro High OG</h2>
+                <p>The Air Jordan 1 Retro High OG sneakers are a stylish choice for both men and women.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cdc1f4c6-71a7-46bd-ab77-2807b9f42a68/air-jordan-1-mid-se-womens-shoes-4x00SR.png" width="250" height="250" alt="JJ sneakers">
+                <h2>Air Jordan 1 Mid SE</h2>
+                <p>The Air Jordan 1 Mid SE sneakers are designed for women, offering both style and comfort.</p>
+            </td>
+            <td>
+                <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/63a88dde-8fcc-4f2d-8bb5-c83bb58b0ccf/air-jordan-1-high-mm-womens-shoes-hCCcBh.png" width="250" height="250" alt="JJ sneakers">
+                <h2>Air Jordan 1 High MM</h2>
+                <p>The Air Jordan 1 High MM sneakers are a fashionable choice for women who want to make a statement.</p>
+            </td>
+        </tr>
+    </table>
+
+   <footer>
+    <h2>Sneaker Stock Footage</h2>
+    <iframe width="400" height="225" src="https://www.youtube.com/embed/VnE7m8JI7MY?autoplay=1"></iframe>
+    </footer>
+</body>
+</html>
