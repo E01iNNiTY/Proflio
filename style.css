@@ -1,0 +1,149 @@
+.desktop {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    overflow: hidden;
+    mix-blend-mode: color-dodge;
+    background-image: url(./img/desktop-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    width: 490px;
+    top: 69px;
+    left: 26px;
+    font-family: "Irish Grover-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .rectangle {
+    position: absolute;
+    width: 257px;
+    height: 56px;
+    top: 908px;
+    left: 1552px;
+}
+
+.desktop .text-wrapper-2 {
+    position: absolute;
+    width: 196px;
+    height: 20px;
+    top: 469px;
+    left: 647px;
+    opacity: 0.5;
+    font-family: "Kavoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .resume-text {
+    display: flex;
+    width: 290px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 419px;
+    left: 575px;
+    background-color: #ffffff66;
+    border-radius: 25px;
+}
+
+.desktop .ellipse {
+    position: relative;
+    width: 17px;
+    height: 18px;
+}
+
+.desktop .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "Kavoon-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .group {
+    position: absolute;
+    width: 618px;
+    height: 41px;
+    top: 83px;
+    left: 787px;
+}
+
+.desktop .div-wrapper {
+    left: 0;
+    display: flex;
+    width: 124px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff80;
+    border-radius: 25px;
+}
+
+.desktop .resume-text-2 {
+    left: 159px;
+    display: flex;
+    width: 124px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff80;
+    border-radius: 25px;
+}
+
+.desktop .resume-text-3 {
+    left: 335px;
+    display: flex;
+    width: 124px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff80;
+    border-radius: 25px;
+}
+
+.desktop .resume-text-4 {
+    left: 494px;
+    display: flex;
+    width: 124px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff80;
+    border-radius: 25px;
+}
