@@ -1,149 +1,175 @@
-.desktop {
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.desktop .div {
-    overflow: hidden;
+.div {
+    disply: flex;
+    flex-direction: column;
     mix-blend-mode: color-dodge;
-    background-image: url(./img/desktop-1.png);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 1440px;
-    height: 1024px;
+    overflow: hidden;
     position: relative;
-}
-
-.desktop .text-wrapper {
-    position: absolute;
-    width: 490px;
-    top: 69px;
-    left: 26px;
-    font-family: "Irish Grover-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 64px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .rectangle {
-    position: absolute;
-    width: 257px;
-    height: 56px;
-    top: 908px;
-    left: 1552px;
-}
-
-.desktop .text-wrapper-2 {
-    position: absolute;
-    width: 196px;
-    height: 20px;
-    top: 469px;
-    left: 647px;
-    opacity: 0.5;
-    font-family: "Kavoon-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .resume-text {
     display: flex;
-    width: 290px;
-    height: 35px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: absolute;
-    top: 419px;
-    left: 575px;
-    background-color: #ffffff66;
-    border-radius: 25px;
+    min-height: 1024px;
+    padding: 50px 35px 50px 26px;
 }
-
-.desktop .ellipse {
+@media (max-width: 991px) {
+    .div {
+        padding: 0 20px;
+    }
+}
+.img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.div-2 {
     position: relative;
-    width: 17px;
-    height: 18px;
+    display: flex;
+    margin-top: 33px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
 }
-
-.desktop .text-wrapper-3 {
+@media (max-width: 991px) {
+    .div-2 {
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.div-3 {
+    color: #fff;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 400 64px Irish Grover, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-3 {
+        font-size: 40px;
+    }
+}
+.div-4 {
+    align-self: start;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.div-5 {
+    color: #fff;
+    white-space: nowrap;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    padding: 6px 16px;
+    font: 400 24px Kavoon, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-5 {
+        white-space: initial;
+    }
+}
+.div-6 {
+    color: #fff;
+    white-space: nowrap;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    padding: 6px 14px;
+    font: 400 24px Kavoon, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-6 {
+        white-space: initial;
+    }
+}
+.div-7 {
+    align-self: start;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.div-8 {
+    color: #fff;
+    white-space: nowrap;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    padding: 6px 7px;
+    font: 400 24px Kavoon, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-8 {
+        white-space: initial;
+    }
+}
+.div-9 {
+    color: #fff;
+    white-space: nowrap;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    padding: 6px 17px;
+    font: 400 24px Kavoon, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-9 {
+        white-space: initial;
+    }
+}
+.div-10 {
     position: relative;
-    width: fit-content;
-    font-family: "Kavoon-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .group {
-    position: absolute;
-    width: 618px;
-    height: 41px;
-    top: 83px;
-    left: 787px;
-}
-
-.desktop .div-wrapper {
-    left: 0;
-    display: flex;
-    width: 124px;
-    height: 41px;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-    position: absolute;
-    top: 0;
-    background-color: #ffffff80;
-    border-radius: 25px;
-}
-
-.desktop .resume-text-2 {
-    left: 159px;
-    display: flex;
-    width: 124px;
-    height: 41px;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: absolute;
-    top: 0;
-    background-color: #ffffff80;
     border-radius: 25px;
-}
-
-.desktop .resume-text-3 {
-    left: 335px;
+    background-color: rgba(255, 255, 255, 0.4);
+    align-self: center;
     display: flex;
-    width: 124px;
-    height: 41px;
-    align-items: center;
-    justify-content: center;
+    margin-top: 274px;
     gap: 10px;
-    position: absolute;
-    top: 0;
-    background-color: #ffffff80;
-    border-radius: 25px;
+    padding: 3px 28px;
 }
-
-.desktop .resume-text-4 {
-    left: 494px;
+@media (max-width: 991px) {
+    .div-10 {
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+.div-11 {
+    filter: blur(2px);
+    border-radius: 50%;
     display: flex;
-    width: 124px;
-    height: 41px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: absolute;
-    top: 0;
-    background-color: #ffffff80;
-    border-radius: 25px;
+    width: 9px;
+    height: 10px;
+    flex-direction: column;
+    margin: auto 0;
+}
+.div-12 {
+    color: #fff;
+    align-self: stretch;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 400 24px Kavoon, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-12 {
+        white-space: initial;
+    }
+}
+.div-13 {
+    position: relative;
+    justify-content: flex-end;
+    color: #fff;
+    align-self: center;
+    white-space: nowrap;
+    margin: 21px 0 378px;
+    font: 400 14px Kavoon, sans-serif;
+}
+@media (max-width: 991px) {
+    .div-13 {
+        margin-bottom: 40px;
+        white-space: initial;
+    }
 }
