@@ -115,14 +115,14 @@ body {
 }
 .email-link {
     display: inline-block;
-    font-size: Monument Extened;
-    font-wieght: 300;
+    font-size: 20px; /* Set your desired font size */
+    font-weight: 300;
     color: #000000;
-    font-size: 20px;
     text-transform: uppercase;
     pointer-events: none;
     transition: 0.1s linear;
 }
+
 .email-link:hover ~ .cursor {
     transform: translate(-50%, -50%) scale(8);
 }
@@ -130,7 +130,11 @@ body {
 
 
 
-}
+
+
+
+
+
 
 
 @media (min-aspect-ratio: 16/9) {
