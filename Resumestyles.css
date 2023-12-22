@@ -6,6 +6,12 @@ body {
     display: flex;
     background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
 }
+img.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+}
 
 @keyframes fadeIn {
     from {
@@ -43,7 +49,7 @@ body {
 .header {
     border: 1px solid #000;
     background: linear-gradient(180deg, rgba(28, 2, 62, 0.61) 2.92%, rgba(49, 21, 83, 0.56) 23.23%, rgba(145, 130, 152, 0.11) 99.99%, rgba(141, 139, 139, 0) 100%);
-    backdrop-filter: blur(2px);
+    /*backdrop-filter: blur(2px);*/
     display: flex;
     width: 100%;
     flex-direction: column;
