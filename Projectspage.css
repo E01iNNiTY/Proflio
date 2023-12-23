@@ -89,10 +89,16 @@ img.logo {
 }
 
 .projects-table {
+    opacity: 100;
     width: 50%;
     margin: 20px auto;
     border-collapse: collapse;
     text-align: center;
+    transition: opacity 0.5s ease;
+}
+
+a:hover + .content .projects-table {
+    opacity: 1;
 }
 
 .projects-table td {
@@ -122,5 +128,3 @@ img.logo {
         height: 100%;
     }
 }
-
-
